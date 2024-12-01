@@ -7,11 +7,7 @@ on:
         description: Version level to be bumped
         default: patch
         required: false
-        type: choice
-        options:
-          - patch
-          - minor
-          - major
+        type: string
 
 jobs:
   create:
